@@ -1,0 +1,55 @@
+{
+    "name": "Dwarf",
+    "traits": {
+        "abilityScoreIncrease": {
+            "constitution": 2
+        },
+        "age": {
+            "adult": 50,
+            "max": 350
+        },
+        "size": {
+            "averageFeet": 4.5,
+            "averagePounds": 150
+        },
+        "speed": 25,
+        "traits": {
+            "Darkvision": {
+                "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            },
+            "Dwarven Resilience": {
+                "description": ""
+            },
+            "Stonecunning": {
+                "description": ""
+            }
+        },
+        "proficiencies": {
+            "Dwarven Combat Training": {
+                "proficiencies": ["battleaxe", "handaxe", "light hammer", "warhammer"]
+            },
+            "Tool Proficiency": {
+                "choose": 1,
+                "proficiencies": ["smith's tools", "brewer's supplies", "mason's tools"]
+            }
+        }
+    },
+    "subRaces": {
+        "Hill Dwarf": {
+            "traits": {
+                "abilityScoreIncrease": {
+                    "wisdom": 1
+                },
+                "traits": {
+                    "Dwarven Toughness": {
+                        "increase": {
+                            "hitPointMax": {
+                                "perLevel": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

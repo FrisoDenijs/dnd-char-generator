@@ -1,0 +1,17 @@
+{
+  "name": "dnd-char-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrisoDenijs/dnd-char-generator.git"
+  },
+  "author": "Friso Denijs",
+  "bugs": {
+    "url": "https://github.com/FrisoDenijs/dnd-char-generator/issues"
+  },
+  "homepage": "https://github.com/FrisoDenijs/dnd-char-generator#readme"
+}
